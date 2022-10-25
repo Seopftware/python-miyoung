@@ -46,15 +46,15 @@ else => 걸어간다.
 # (1) for 
 # (2) while
 
-# a = 1+2+3+4+5
-# result = 0
-# for i in range(1,3):
-#     result = result + i # reulst += i
-#     print(result)
+result = 0
+for i in range(1,6):
+    result = result + i # reulst += i
+
+print()
 
 for i in range(10): # 0~9
     if 3<=i<=5:
         # continue # 반복문의 코드 처음으로 돌아간다.        
         break # 반복문을 멈추세요.
     # print(i) # 0,1,2,6,7,...
-    print(i) # 0,1,2...
+    # print(i) # 0,1,2...
