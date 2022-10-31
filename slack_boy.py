@@ -2,7 +2,7 @@ import requests
 import json
 
 def send_slack_message():
-    slack_url = "https://hooks.slack.com/services/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"
+    slack_url = "https://hooks.slack.com/services/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"
     message = """
     여러분 화이팅!
     """ 
